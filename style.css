@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    margin-top: 5px;
+    border-radius: 2%;
+    height: auto;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.nav-item:hover{
+    color: palevioletred;
+    text-decoration: underline;
+}
+.first{
+    background-image: url("./Images/Rectangle\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.card1{
+    border: none;
+    text-decoration: none;
+}
+.second{
+    margin-top: 100px;
+}
+.page1{
+    margin-top: 10px;
+}
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact .h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btnl {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btnl:hover {
+    background-color: #218838;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .second{
+        margin-top: 10vh;
+    }
+    .card3{
+        margin-left: 180px;
+    }
+    .card2{
+        margin-left: 180px;
+    }
+    .card1{
+        margin-left: 180px;
+    }
+ }
+ @media (min-width: 320px) and (max-width: 767px) { 
+    .second{
+        margin-top: 80vh;
+    }
+    .iimage{
+        width: 100%;
+    }
+ }
+ @media (min-width: 320px) and (max-width: 991.98px) { 
+    .page1{
+        margin-top: auto;
+    }
+    
+ }
+ @media (min-width: 320px) and (max-width: 768px){
+    .card4{
+        display: flex;
+        justify-content: center;
+        height: 55vh;
+        width: 100%;
+    }
+ }
